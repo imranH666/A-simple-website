@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.main {
+    padding-top: 50px;
+    background-color: #97e4878e;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.main-head {
+    text-align: center;
+}
+.main-head h1 {
+    font-size: 40px;
+    color: red;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+}
+.main-head h2 {
+    font-size: 30px;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+}
+.main-head h3 {
+    padding-top: 10px;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+}
+
+.main-main {
+    margin-top: 40px;
+    padding: 30px;
+}
+
+.student {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 20px;
+}
+input[type="number"] {
+    width: 50px;
+    padding-right: -20px;
+    border-radius: 20px;
+}
+
+.name {
+    width: 300px;
+    background-image: linear-gradient(rgba(243, 228, 23, 0.747), rgba(116, 109, 11, 0.747));
+    padding: 20px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+.name h3 {
+    font-size: 25px;
+    padding-top: 10px;
+    color: #fff;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+}
+.name:hover {
+    background-image: linear-gradient(rgb(121, 245, 38), rgb(231, 80, 33));
+}
+
+.present {
+    background-image: linear-gradient(rgb(208, 58, 238), rgb(78, 14, 87));
+    padding: 20px 40px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+.present h4 {
+    padding-bottom: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+}
+.present:hover {
+    background-image: linear-gradient(rgb(121, 245, 38), rgb(231, 80, 33));
+}
+span {
+    width: 50px;
+    background-color: #fff;
+    color: black;
+    display: inline-block;
+    padding-left: -20px;
+    border-radius: 20px;
+}
+
+.absent {
+    background-image: linear-gradient(rgb(208, 58, 238), rgb(78, 14, 87));
+    padding: 20px 40px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+.absent h4 {
+    padding-bottom: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+}
+.absent:hover {
+    background-image: linear-gradient(rgb(121, 245, 38), rgb(231, 80, 33));
+}
+
+.work {
+    background-image: linear-gradient(rgb(208, 58, 238), rgb(78, 14, 87));
+    padding: 20px 40px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+.work h4 {
+    padding-bottom: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+}
+.work:hover {
+    background-image: linear-gradient(rgb(121, 245, 38), rgb(231, 80, 33));
+}
+
+.fine {
+    background-image: linear-gradient(rgb(208, 58, 238), rgb(78, 14, 87));
+    padding: 20px 60px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+.fine h4 {
+    padding-bottom: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+}
+.fine:hover {
+    background-image: linear-gradient(rgb(121, 245, 38), rgb(231, 80, 33));
+}

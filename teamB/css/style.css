@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-main {
+    padding-top: 50px;
+    position: absolute;
+    width: 100%;
+}
+.nav-main ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.nav-main ul li a {
+    padding: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #edf03a;
+    display: block;
+}
+
+
+.menu {
+    position: relative;
+}
+.over1 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+.over1 img {
+    width: 100%;
+}
+.menu:hover .over1 {
+    visibility: visible;
+    top: 10px;
+    left: 10px;
+}
+.menu:hover a {
+    color: #fd236c;
+}
+
+.over2 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    bottom: 0;
+    right: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+.over2 img {
+    width: 100%;
+    transform: rotate(180deg);
+}
+.menu:hover .over2 {
+    visibility: visible;
+    bottom: 10px;
+    right: 10px;
+}
+
+
+
+/* name part css start */
+#name {
+    background: url(../images/banner2.jpg) no-repeat center / cover;
+    padding-top: 100px;
+    
+}
+
+.name-main {
+    padding: 50px;
+    display: flex;
+}
+.name-left {
+    width: 30%;
+}
+.name-right {
+    width: 70%;
+}
+.student-1 {
+    width: 250px;
+    position: relative;
+}
+.student-1 h3 {
+    padding: 20px 20px;
+    background-color: #59e2dbbd;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px 0;
+    transition: 0.5s;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+}
+.student-1 h3:hover {
+    background-color: #e227e9;
+}
+.overly {
+    position: absolute;
+    width: 900px;
+    height: 500px;
+    top: 0;
+    right: -900px;
+    display: flex;
+    transform: scaleY(0);
+    transition: 0.5s;
+}
+.overly1 {
+    position: absolute;
+    width: 900px;
+    height: 500px;
+    bottom: 0;
+    right: -900px;
+    display: flex;
+    transform: scaleY(0);
+    transition: 0.5s;
+}
+
+.student-1:hover .overly {
+    transform: scaleY(1);
+}
+.student-1:hover .overly1 {
+    transform: scaleY(1);
+}
+
+.card {
+    width: 80%;
+}
+.black {
+    width: 100%;
+    height: 30%;
+    background-color: rgb(46, 42, 42);
+    border-top-left-radius: 10px;
+}
+.profile {
+    position: absolute;
+    width: 150px;
+    height: 180px;
+    background-color: rgb(0, 255, 221);
+    left: 100px;
+    top: -90px;
+}
+.profile img {
+    width: 100%;
+    height: 100%;
+}
+.img {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.black img {
+    margin-top: 40px;
+    margin-left: 400px;
+}
+.white {
+    position: relative;
+    width: 100%;
+    height: 70%;
+    border-bottom-left-radius: 10px;
+    background-color: #f0e3e3;
+}
+.form-text {
+    margin-left: 300px;
+}
+.form-text h2 {
+    text-transform: uppercase;
+    font-size:25px;
+    padding-top: 20px;
+}
+.form-text h4 {
+    color: red;
+    font-size: 25px;
+    margin-top: 7px;
+}
+.form-text h5 {
+    font-weight: bolder;
+}
+.form-text2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.c-t p {
+    text-transform: uppercase;
+}
+.c-t h6 {
+    font-size: 20px;
+}
+.form-text3 {
+    display: flex;
+    padding-left: 30px;
+    padding-top: 40px;
+}
+.line1 h5 {
+    padding-top: 5px;
+}
+.form {
+    width: 20%;
+    background-color: rgb(186, 126, 201);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.details {
+    display: inline-block;
+    margin-top: 200px;
+    margin-left: 45px;
+    position: relative;
+    
+}
+.details a {
+    text-decoration: none;
+    color: rgb(150, 224, 11);
+    background-image: linear-gradient(to right, black, red, black);
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.details-in {
+    position: absolute;
+    width: 740px;
+    height: 500px;
+    background-color: #cae4e2;
+    bottom: -263px;
+    left: -740px;
+    transform: scale(0);
+    transition: 0.5s;
+}
+.details:hover .details-in {
+    transform: scale(1);
+}
+
+.details-main {
+    margin: 20px 20px 20px 0;
+    display: flex;
+    text-align: center;
+}
+.present {
+    width: 30%;
+}
+.present h4 {
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.present-main {
+    height: 350px;
+    width: 200px;
+    overflow: auto;
+}
+.one {
+    margin-bottom: 10px;
+}
+.one label {
+    font-size: 25px;
+}
+input[type="checkbox"] {
+    width: 50px;
+    height: 20px;
+}
+
+.count {
+    margin-top: 20px;
+}
+input[type="number"] {
+    width: 50px;
+    height: 20px;
+}
+
+.absent {
+    width: 30%;
+}
+.absent h4 {
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.absent-main {
+    height: 350px;
+    width: 200px;
+    overflow: auto;
+}
+.fine {
+    width: 40%;
+}
+.fine h4 {
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.fine-main {
+    height: 350px;
+    width: 200px;
+    overflow: auto;
+    margin-left: 30px;
+}
+
+.right {
+    text-align: center;
+    margin-top: 150px;
+}
+.right ul {
+    list-style-type: none;
+
+}
+.right ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 20px 40px;
+    background-color: #59e2dbbd;
+    display: inline-block;
+    margin: 5px 0;
+    width: 300px;
+    border-radius: 10px;
+    transition: 0.5s;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+}
+.right ul li a:hover {
+    background-image: linear-gradient(to right, #c228e0bd, #1cebdaa8, #c228e0bd);
+}
